@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EA9A52;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.six {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: #435998;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+}
+
+.circle {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #EA9A52;
+}
+.circle .xett {
+  position: absolute;
+  background-color: #435998;
+  width: 200px;
+  height: 52px;
+  left: -57px;
+  top: -91px;
+  rotate: -50deg;
+}/*# sourceMappingURL=style.css.map */
